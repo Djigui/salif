@@ -1,0 +1,53 @@
+body{
+ background-color: rgb(185, 187, 184);
+}
+#adama{
+    border-radius: 6px;
+font-size: 20px;
+padding: 16px;
+background-color: aquamarine;
+
+
+}
+#button {
+
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 16px;
+  background-color: aquamarine;
+}
+
+#salif{
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 16px;
+  background-color: aquamarine;
+}
+
+.salma{
+    background-color: rgb(101, 128, 101);
+    column-rule-color: darkorchid;
+    position: relative;
+    border-radius: 0px;
+   
+}
+
+#menu{
+  
+    position: relative;
+color: rgb(143, 161, 110);
+font-size: 20px;
+}
+
+
+.bari{
+    background-color: rgb(81, 94, 81);
+}
+
+#button1{
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 16px;
+  background-color: aquamarine;
+
+}
