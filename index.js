@@ -69,6 +69,164 @@ if(y ==x){
   console.log('the batle lid, and the car door, else the vampire hunthe')
 }
 */
-const button1 = document.getElementById("button1");
 
-console.log(button1 + 'ciaoo')
+
+  
+  persone1 = {
+    nome: "Djgui",
+    cognome: "Toa",
+    citta: "Torino",
+dataNnascita: "1-5-1977",
+professione: "Informatico",
+mansioni: ["aggiornamenti sistemi hardward", "tecnico", "consulenza"],
+interessi: ["viaggiare", "festa", "buy the items", "sopphing the friut frest", "device depelopement", "hardward depelopement"],
+indirizzo: ["via", "ooea", "26 bis"],
+hobi: ["innamorarmi un giorno", "been love one day", "the lid botle", "the pecie of table"],
+nazionalità: "maliana",
+};
+
+persone2 = {
+  nome: "Digyyui",
+  cognome: "Touna",
+  citta: "Torino",
+dataNnascita: "1-10-1997",
+professione: "Informatico",
+mansioni: ["aggiornamenti sistemi hardward", "tecnico", "consulenza"],
+interessi: ["viaggiare", "festa", "buy the items", "sopphing the friut frest", "device depelopement", "hardward depelopement"],
+indirizzo: ["via", "Ormyyea", "yt2 bis"],
+hobi: ["innamorarmi un giorno", "been love one day", "the lid botle", "the pecie of table"],
+nazionalità: "maliana",
+};
+
+persone3 = {
+  nome: "Djiguyi",
+  cognome: "Tounk",
+  citta: "Torino",
+dataNnascita: "5-12-1998",
+professione: "Informatico",
+mansioni: ["aggiornamenti sistemi hardward", "tecnico", "consulenza"],
+interessi: ["viaggiare", "festa", "buy the items", "sopphing the friut frest", "device depelopement", "hardward depelopement"],
+indirizzo: ["via", "Orimea", "66 bis"],
+hobi: ["innamorarmi un giorno", "been love one day", "the lid botle", "the pecie of table"],
+nazionalità: "maliana",
+};
+
+
+persone1.interessi.forEach(element => {
+  console.log(element);});
+  persone1.mansioni.forEach(element => {
+    console.log(element);});
+    persone1.hobi.forEach(element => {
+      console.log(element);});
+  console.log(persone1);
+  console.log(persone1.mansioni.length + "   mansione lunghezza");
+  console.log(persone1.interessi.length + "   interessi lunghezza");
+  console.log(persone1.hobi.length + "   hobi lunghezza");
+
+  if(persone1.mansioni.length >= 4){
+    console.log("persone e troppo lungo");
+  }else{
+    console.log("allora persone lunghezza e troppo corto");
+  };
+  
+  if(persone1.hobi.length >= 3){
+    console.log("persone e troppo lungo");
+  }else{
+    console.log("mi vergogno");
+  };
+
+  
+  if(persone1.interessi.length >= 7 ){
+    console.log("persone e troppo lungo");
+  }else{
+    console.log("allora persone lunghezza e troppo corto");
+  }
+
+
+
+
+
+
+  
+  persone1.mansioni.forEach(element => {
+    console.log(element);});
+
+  persone2.hobi.forEach(element => {
+    console.log(element);});
+     
+
+        persone2.interessi.forEach(element => {
+          
+            console.log(element);
+           });
+
+    console.log(persone2);
+
+    console.log(persone2.hobi.length + "   mansione lunghezza");
+
+    console.log(persone2.interessi.length + "   interessi lunghezza");
+
+    console.log(persone2.mansioni.length + "   hobi lunghezza");
+
+    //
+    if(persone2.mansioni.length >= 7 ){
+      console.log("persone e troppo lungo");
+    }else{
+      console.log("allora persone lunghezza e troppo corto");
+    };
+    
+    if(persone2.hobi.length >= 7 ){
+      console.log("persone e troppo lungo");
+    }else{
+      console.log("allora persone lunghezza e troppo corto");
+    };
+  
+    
+    if(persone2.interessi.length >= 7 ){
+      console.log("persone e troppo lungo");
+    }else{
+      console.log("allora persone lunghezza e troppo corto");
+    };
+
+
+
+ 
+
+  persone3.hobi.forEach(element => {
+
+    console.log(persone3); });
+
+  persone3.interessi.forEach(element => {
+
+    console.log(persone3); });
+
+
+  persone3.mansioni.forEach(element => {
+    console.log(persone3); });
+
+console.log(persone3);
+
+    console.log(persone3.mansioni.length + "   mansione lunghezza");
+
+    console.log(persone3.interessi.length + "   interessi lunghezza");
+
+    console.log(persone3.hobi.length + "   hobi lunghezza");
+
+    if(persone3.mansioni.length >= 4 ){
+      console.log("persone e troppo lungo");
+    }else{
+      console.log("allora persone lunghezza e troppo corto");
+    };
+    
+    if(persone3.hobi.length >= 6){
+      console.log("persone e troppo lungo");
+    }else{
+      console.log("allora persone lunghezza e troppo corto");
+    };
+  
+    
+    if(persone3.interessi.length >= 9){
+      console.log("persone e troppo lungo");
+    }else{
+      console.log("allora persone lunghezza e troppo corto");
+    };
